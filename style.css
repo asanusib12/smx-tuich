@@ -51,11 +51,11 @@ footer{
   margin-top: 70px;
   font-size: 12px;
 }
-footer ul{margin: 0;}
+
 
 .menu-blog li {
     list-style-type: none;
-    float: left;
+    display: inline;
     margin: 4px;
 }
 
@@ -68,6 +68,9 @@ footer ul{margin: 0;}
 /* La línea aplicada a todas las 'li' del documento estaba cambiando también los parámetros de la 'li' del footer
    Mejor así, especificando a que 'li' en concreto te refieres.
 */
+.footer li{list-style-type: none;
+display: inline;
+margin: 4px;}
 
 #espacio-pesado{margin-right: 57px;}
 
@@ -131,6 +134,7 @@ footer ul{margin: 0;}
  .footerblog{
   text-align: center;
  }
+.footer{text-align: center;}
 
  .contenidos{
 width: 55%;
